@@ -1,0 +1,16 @@
+C:\Users\Bojan\source\repos\VizProject\bin\Debug\test forms aoo.exe.config
+C:\Users\Bojan\source\repos\VizProject\bin\Debug\test forms aoo.exe
+C:\Users\Bojan\source\repos\VizProject\bin\Debug\test forms aoo.pdb
+C:\Users\Bojan\source\repos\VizProject\obj\Debug\VizProject.csprojAssemblyReference.cache
+C:\Users\Bojan\source\repos\VizProject\obj\Debug\test_forms_aoo.Quizz.resources
+C:\Users\Bojan\source\repos\VizProject\obj\Debug\test_forms_aoo.Form2.resources
+C:\Users\Bojan\source\repos\VizProject\obj\Debug\test_forms_aoo.Form3.resources
+C:\Users\Bojan\source\repos\VizProject\obj\Debug\test_forms_aoo.Form4.resources
+C:\Users\Bojan\source\repos\VizProject\obj\Debug\test_forms_aoo.Form5.resources
+C:\Users\Bojan\source\repos\VizProject\obj\Debug\test_forms_aoo.Form6.resources
+C:\Users\Bojan\source\repos\VizProject\obj\Debug\test_forms_aoo.Form7.resources
+C:\Users\Bojan\source\repos\VizProject\obj\Debug\test_forms_aoo.Properties.Resources.resources
+C:\Users\Bojan\source\repos\VizProject\obj\Debug\VizProject.csproj.GenerateResource.cache
+C:\Users\Bojan\source\repos\VizProject\obj\Debug\VizProject.csproj.CoreCompileInputs.cache
+C:\Users\Bojan\source\repos\VizProject\obj\Debug\test forms aoo.exe
+C:\Users\Bojan\source\repos\VizProject\obj\Debug\test forms aoo.pdb
