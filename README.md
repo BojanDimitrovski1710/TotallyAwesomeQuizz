@@ -14,6 +14,56 @@
 # 4. Податочни Структури
 Има севкупно 9 класи
 Program, Player, Form1, Form2, Form3, Form4, Form5, Form6, и Form7.
-Во Player се чуваат различни променливи кои ги мерат карактеристиките на играчот како и методи за инкрементација на истите. Тука се наоѓа и методата giveResults() која во зависност на карактеристиките на играчот спрема репорт кој подоцна се прикажува додека играчот сака.
+**Program** само служи за почеток на програмата. 
+Во **Player** се чуваат различни променливи, **introversion extroversion empathy responsibility breavery favSeason favMovie**, кои ги мерат карактеристиките на играчот како и методи за инкрементација на истите. Тука се наоѓа и методата **giveResults()**.
+```C#
+ public string giveResults()
+        {
+            string results = "";
+            results = "Hello, your name is " + this.Name + ", your favourite season is " + this.favSeason + " and your favourite movie is " + this.favMovie + ".\n You ";
+
+            if (this.bravery > 0)
+                results += "are brave,";
+            else
+                results += "are not very brave,";
+
+            if(this.introversion>0 && this.extroversion > 0)
+            {
+                results += " both introverted and extroverted depending on the sittuation,";
+            }
+            else
+            {
+                if (this.introversion > 0)
+                {
+                    results += " slightly introverted,";
+                }
+                
+                if(this.extroversion > 0)
+                {
+                    results += " slightly extroverted,";
+                }
+            }
+            
+            if(this.empathy > 0)
+            {
+                results += " tend to emphatise with people easly,";
+            }
+            else
+            {
+                results += " don't emphatise with people easly,";
+            }
+
+            if(this.responsibility > 0)
+            {
+                results += " and are pretty responsible!";
+            }
+            else
+            {
+                results += " and you could work on your responsibility a bit.";
+            }
+
+            return results;
+
+```
+Во методата **giveResults()** се прави нов стринг, на кој во зависност од карактеристиките на играчот се додаваат различни описи. Целиот резултат може послем да биде прикажан додека играчот избере. 
 Во сите Form класи има методи за кога копче на одговор е притиснато, во тие методи се инкрементира некоја карактеристика на играчот и се продолжува до следното прашање/следниот Form.
-Program само служи за почеток на програмата. 
